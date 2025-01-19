@@ -22,9 +22,9 @@ const LandingSection = () => {
   useEffect(() => {
     const updateTotalItems = () => {
       if (window.innerWidth <= 760) {
-        setTotalItems(4); // Show 4 items on smaller screens
+        setTotalItems(4); 
       } else {
-        setTotalItems(6); // Show 6 items on larger screens
+        setTotalItems(6); 
       }
     };
 
